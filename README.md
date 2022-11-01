@@ -7,7 +7,7 @@ Assignment:
 - DONE! - Store tasks in a database
 - DONE! - Use Eloquent to interact with the database
 
-If you found the above comfortable, the following optional extras would be nice to see:
+Optional:
 - DONE! (Options: Hidden) - Moving completed tasks to the end of the list ( or hide them )
 - DONE! - Assigning deadline dates to tasks
 - DONE! - Notify or display that a task is now overdue
