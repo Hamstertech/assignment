@@ -16,8 +16,9 @@ class TaskController extends Controller
     public function index()
     {
         $tasks = Task::where('status', 0)->get();
-        
-        return view('tasks.index', ['tasks' => $tasks]);
+        $completed = Task::where('status', 1)->get();
+
+        return view('tasks.index', ['tasks' => $tasks, 'completed' => $completed]);
     }
 
     /**
